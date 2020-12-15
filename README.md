@@ -56,7 +56,10 @@ Je suis donc en mesure de connaître les repas d'un étudiant à J+18, par exemp
 
 À partir de ces informations, vous devez réaliser un petit programme qui vous retourne les repas de n'importe quel jour en fonction de la liste des repas de la semaine de départ.
 
-![Exemple](./miam-1.png)
+Exemples de rendu :
+
+![CLI](./miam-1.png)
+![Web](./miam-2.png)
 
 
 
