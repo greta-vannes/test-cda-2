@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Des scientifiques du MIT viennent de trouver une loi très étrange qui permet de prédire les repas de ses étudiants plusieurs jours à l'avance et ainsi améliorer la gestion de ses stocks.
+Des scientifiques du MIT viennent de trouver une loi très étrange qui permet de prédire les repas de ses étudiant•e•s plusieurs jours à l'avance et ainsi améliorer la gestion de ses stocks.
 
-À chaque retour de vacances les étudiants font la liste des repas de la semaine en ayant le choix entre 🍣 (sushi) 🍕 (pizza) ou 🥦 (repas diététique)
+À chaque retour de vacances les étudiant•e•s font la liste des repas de la semaine en ayant le choix entre 🍣 (sushi) 🍕 (pizza) ou 🥦 (repas diététique)
 
 Exemple de liste de la semaine (deux repas par jour pendant sept jours) :
 
 🍣🍣🍕🍣🍕🥦🍕🥦🍣🍣🍕🍕🥦🍣 
 
-En étudiant cette liste, des scientifiques se sont rendu compte qu'ils peuvent prédire les quatre-vingts onze repas suivants de manière précise avec **le théorème du Triangle du miam** 👀...
+En regardant les commandes suivantes, des scientifiques se sont rendu compte qu'ils peuvent prédire les quatre-vingts onze repas à venir et cela de manière précise grâce au **théorème du Triangle du miam** 👀...
 
 ## Spécifications
 
@@ -21,7 +21,7 @@ Combinaison  🍣 🍣   🍣 🍕   🍣 🥦   🍕 🥦
 Prédiction    🍣      🥦      🍕     🍣
 ```
 
-Les prédictions se font par lignes successives de taille Combinaisons précédentes - 1, ce qui donne naissance au fameux **Triangle du miam**.
+Les prédictions se font par lignes successives de taille `combinaisons précédentes - 1`, ce qui donne naissance au fameux **Triangle du miam**.
 
 En reprenant l'exemple précédent :
 
