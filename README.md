@@ -16,9 +16,10 @@ En étudiant cette liste, des scientifiques se sont rendu compte qu'ils peuvent 
 
 Chaque combinaison de deux repas permet de faire une prédiction comme ceci :
               
-
+```txt
 Combinaison  🍣 🍣   🍣 🍕   🍣 🥦   🍕 🥦
 Prédiction    🍣      🥦      🍕     🍣
+```
 
 Les prédictions se font par lignes successives de taille Combinaisons précédentes - 1, ce qui donne naissance au fameux Triangle du miam.
 
@@ -43,12 +44,14 @@ En reprenant l'exemple précédent :
 
 Je suis donc en mesure de connaître les repas d'un étudiant à J+18, par exemple, en calculant les jours comme ceci (midi et soir):
 
+```txt
  1 1  2 2  3 3  4 4   5 5  6 6  7 7
 🍣 🍣 🍕 🍣 🍕 🥦 🍕 🥦 🍣 🍣 🍕 🍕 🥦 🍣
   8 8  9 9  1010 1111 1212  1313 14
  🍣 🥦 🥦 🥦 🍣 🍣 🍣 🍕 🍣 🥦 🍕 🍣 🍕
   14 1515 1616  1717 1818 ...
   🍕 🥦 🥦 🍕 🍣 🍣 🥦 🥦 🍕 🍣 🥦 🥦
+```
 
 À J+18, cet étudiant mangera 🥦 le midi et 🍕 le soir !
 
