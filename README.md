@@ -24,6 +24,7 @@ Les prédictions se font par lignes successives de taille Combinaisons précéde
 
 En reprenant l'exemple précédent :
 
+```txt
 🍣 🍣 🍕 🍣 🍕 🥦 🍕 🥦 🍣 🍣 🍕 🍕 🥦 🍣
  🍣 🥦 🥦 🥦 🍣 🍣 🍣 🍕 🍣 🥦 🍕 🍣 🍕
   🍕 🥦 🥦 🍕 🍣 🍣 🥦 🥦 🍕 🍣 🥦 🥦
@@ -38,6 +39,7 @@ En reprenant l'exemple précédent :
            🥦 🥦 🥦
             🥦 🥦
              🥦
+```
 
 Je suis donc en mesure de connaître les repas d'un étudiant à J+18, par exemple, en calculant les jours comme ceci (midi et soir):
 
