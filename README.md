@@ -14,14 +14,14 @@ En regardant les commandes suivantes, des scientifiques se sont rendu compte qu'
 
 ## Spécifications
 
-- [] Chaque combinaison de deux repas permet de faire une prédiction comme ceci :
+- [ ] Chaque combinaison de deux repas permet de faire une prédiction comme ceci :
               
 ```txt
 Combinaison  🍣 🍣   🍣 🍕   🍣 🥦   🍕 🥦
 Prédiction    🍣      🥦      🍕     🍣
 ```
 
-- [] Les prédictions se font par lignes successives de taille `combinaisons précédentes - 1`, ce qui donne naissance au fameux **Triangle du miam**.
+- [ ] Les prédictions se font par lignes successives de taille `combinaisons précédentes - 1`, ce qui donne naissance au fameux **Triangle du miam**.
 
 En reprenant l'exemple précédent :
 
@@ -42,7 +42,7 @@ En reprenant l'exemple précédent :
              🥦
 ```
 
-- [] Je suis donc en mesure de connaître les repas d'un étudiant à J+18 par exemple, en calculant les jours comme ceci (midi et soir):
+- [ ] Je suis donc en mesure de connaître les repas d'un étudiant à J+18 par exemple, en calculant les jours comme ceci (midi et soir):
 
 ```txt
 🍣 1 | 🍣 1 | 🍕 2 | 🍣 2 | 🍕 3 | 🥦 3 | 🍕 4 | 🥦 4 | 🍣 5 | 🍣 5 | 🍕 6 | 🍕 6 | 🥦 7 | 🍣 7
