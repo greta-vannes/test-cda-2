@@ -21,6 +21,8 @@ Combinaison  🍣 🍣   🍣 🍕   🍣 🥦   🍕 🥦
 Prédiction    🍣      🥦      🍕     🍣
 ```
 
+Si deux repas sont similaires, la prédiction sera ce même repas. Sinon la prédiction sera le repas restant.
+
 - [ ] Les prédictions se font par lignes successives de taille `combinaisons précédentes - 1`, ce qui donne naissance au fameux **Triangle du miam**.
 
 En reprenant l'exemple précédent :
