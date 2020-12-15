@@ -10,7 +10,7 @@ Exemple de liste de la semaine (deux repas par jour pendant sept jours) :
 
 🍣🍣🍕🍣🍕🥦🍕🥦🍣🍣🍕🍕🥦🍣 
 
-En étudiant cette liste, des scientifiques se sont rendu compte qu'ils peuvent prédire les quatre vingt onze repas suivants de manière précise avec la théorie du Triangle du miam 👀...
+En étudiant cette liste, des scientifiques se sont rendu compte qu'ils peuvent prédire les quatre-vingts onze repas suivants de manière précise avec **le théorème du Triangle du miam** 👀...
 
 ## Spécifications
 
@@ -21,7 +21,7 @@ Combinaison  🍣 🍣   🍣 🍕   🍣 🥦   🍕 🥦
 Prédiction    🍣      🥦      🍕     🍣
 ```
 
-Les prédictions se font par lignes successives de taille Combinaisons précédentes - 1, ce qui donne naissance au fameux Triangle du miam.
+Les prédictions se font par lignes successives de taille Combinaisons précédentes - 1, ce qui donne naissance au fameux **Triangle du miam**.
 
 En reprenant l'exemple précédent :
 
@@ -42,7 +42,7 @@ En reprenant l'exemple précédent :
              🥦
 ```
 
-Je suis donc en mesure de connaître les repas d'un étudiant à J+18, par exemple, en calculant les jours comme ceci (midi et soir):
+Je suis donc en mesure de connaître les repas d'un étudiant à J+18 par exemple, en calculant les jours comme ceci (midi et soir):
 
 ```txt
 🍣 1 | 🍣 1 | 🍕 2 | 🍣 2 | 🍕 3 | 🥦 3 | 🍕 4 | 🥦 4 | 🍣 5 | 🍣 5 | 🍕 6 | 🍕 6 | 🥦 7 | 🍣 7
